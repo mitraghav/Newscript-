@@ -1,0 +1,27 @@
+{
+  "name": "persistent-message-sender-bot",
+  "version": "1.0.0",
+  "description": "Express + WebSocket based message sender bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "express",
+    "websocket",
+    "nodejs",
+    "bot"
+  ],
+  "author": "Amit",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2",
+    "fca-mafiya": "^1.7.0",
+    "uuid": "^9.0.1",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
